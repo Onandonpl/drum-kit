@@ -1,0 +1,28 @@
+.plays {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  height: 150px;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hit {
+  color: red;
+  transform: scale(1.5);
+}
+
+.button {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: linear 0.1s;
+  text-align: center;
+  line-height: 60px;
+}
