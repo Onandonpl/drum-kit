@@ -8,14 +8,13 @@ play = (e) => {
   audio.currentTime = 0;
   audio.play();
   audios.classList.add("hit");
-  console.log("elo");
 };
 
-function removeClasses() {
+removeClasses = () => {
   [...buttons].map((item) => {
     item.classList.remove("hit");
   });
-}
+};
 
 window.addEventListener("keydown", play);
 window.addEventListener("keyup", removeClasses);
